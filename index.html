@@ -1,23 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vbcloudflare.org</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloudflare Solution Architect Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f9fafb;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #d1d5db;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    article {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      margin-bottom: 2rem;
+    }
+
+    article h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    article p {
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #e5e7eb;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #9ca3af;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #facc15;
+    }
+  </style>
 </head>
+
 <body>
   <header>
-    <h1>Welcome to vbcloudflare.org</h1>
+    <h1>Cloudflare Solution Architect</h1>
+    <p>Insights, Strategies, and Innovations in Cloud Architecture</p>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">Cloudflare</a>
+      <a href="#">Case Studies</a>
+      <a href="#">About</a>
+    </nav>
   </header>
+
   <main>
-    <section>
-      <h2>Cloudflare Pages Demo</h2>
-      <p>This site is hosted on Cloudflare Pages!</p>
-    </section>
+    <article>
+      <h2>The Modern Solution Architect's Toolkit</h2>
+      <p>Today’s solution architect needs more than just technical skills—they need a deep understanding of DevOps, security, and distributed systems. Learn about the essential tools like Terraform, GitHub Actions, and observability platforms that power scalable architecture.</p>
+    </article>
+
+    <article>
+      <h2>Multi-Cloud Strategies: What You Need to Know</h2>
+      <p>Multi-cloud adoption has become mainstream. Explore architectural blueprints, load balancing methods, and governance models to ensure your systems are resilient and efficient across providers.</p>
+    </article>
+
+    <article>
+      <h2>Why Cloudflare Is a Game-Changer for Architects</h2>
+      <p>Cloudflare offers more than just DDoS protection. With edge computing, serverless functions (Cloudflare Workers), and zero-trust security solutions, it's become an essential platform for solution architects building performant, global applications.</p>
+      <p>Key features include:</p>
+      <ul>
+        <li>Global CDN and load balancing</li>
+        <li>Edge compute with Cloudflare Workers</li>
+        <li>Developer-friendly Pages for JAMstack apps</li>
+        <li>Zero Trust security and access controls</li>
+      </ul>
+    </article>
   </main>
+
   <footer>
-    <p>&copy; 2025 vbcloudflare.org</p>
+    &copy; 2025 Cloudflare Solution Architect Blog. Built with Cloudflare Pages.
   </footer>
 </body>
+
 </html>
